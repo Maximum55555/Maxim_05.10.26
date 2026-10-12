@@ -1,0 +1,8 @@
+name= input()
+city= input()
+role= input()
+print("=== КАРТОЧКА УЧАСТНИКА ===")
+print(f"Имя: {name}")
+print(f"Город: {city}")
+print(f"Роль: {role}")
+print(f"Добро пожаловать, {name}!")

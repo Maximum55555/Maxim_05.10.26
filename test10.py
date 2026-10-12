@@ -1,0 +1,7 @@
+g1= int(input())
+g2= int(input())
+g3= int(input())
+Gused= int(input())
+print("Получено: ", g1+g2+g3)
+print("Израсходовано: ", Gused)
+print("Осталось: ", g1+g2+g3-Gused)
