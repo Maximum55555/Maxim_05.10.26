@@ -52,7 +52,7 @@ cb2 = ttk.Combobox(win, values=["EUR", "USD", "RUB"])
 cb2.set("USD")
 cb2.pack()
 
-tk.Label(win, text="Американский доллар", bg="white").pack(pady=5)
+tk.Label(win, text="Доллар США", bg="white").pack(pady=5)
 
 tk.Label(win, text="Целевая валюта", font=("Arial", 10, "bold"), bg="white").pack(pady=10)
 
