@@ -2,7 +2,7 @@ import datetime
 import requests
 from tkinter import Tk, Button, ttk, messagebox as mb
 
-# Словарь: ID монеты для API и её красивое название (оставили только 3)
+# Словарь: ID монеты для API и её название (берем: только 3)
 COINS = {
     'bitcoin': 'Bitcoin',
     'ethereum': 'Ethereum',
