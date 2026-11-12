@@ -60,7 +60,7 @@ cb3 = ttk.Combobox(win, values=["EUR", "USD", "RUB"])
 cb3.set("RUB")
 cb3.pack()
 
-tk.Label(win, text="Российский рубль", bg="white").pack(pady=5)
+tk.Label(win, text="Рубль Российский", bg="white").pack(pady=5)
 
 tk.Button(win, text="Получить курс обмена", command=exchange).pack(pady=20)
 
