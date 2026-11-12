@@ -97,7 +97,7 @@ def main():
     root, table, timestamp_label = build_gui()
     state = {'last_refresh': None}
 
-    Button(root, text='Обновление', command=lambda: on_refresh(table, timestamp_label, state)).pack(pady=10)
+    Button(root, text='Обновления', command=lambda: on_refresh(table, timestamp_label, state)).pack(pady=10)
 
     root.mainloop()
 
