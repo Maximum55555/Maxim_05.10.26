@@ -1,0 +1,10 @@
+name1= input()
+name2= input()
+name3= input()
+name4= input()
+print("ПЕРЕСАДКА ЗАВЕРШЕНА")
+print(f"Модуль Альфа: {name4}")
+print(f"Модуль Бета: {name1}")
+print(f"Модуль Гамма: {name2}")
+print(f"Модуль Дельта: {name3}")
+

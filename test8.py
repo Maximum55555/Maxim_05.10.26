@@ -1,0 +1,13 @@
+name= input()
+vehicle= input()
+planet= input()
+aim= input()
+channel= input()
+print("=== ПРОТОКОЛ СВЯЗИ ===")
+print(f"Канал: {channel}")
+print(f"Планета: {planet}")
+print(f"Корабль: {vehicle}")
+print(f"Командир: {name}")
+print(f"Цель: {aim}")
+print(f"Сообщение: {planet}, корабль «{vehicle}» вышел на связь!")
+
