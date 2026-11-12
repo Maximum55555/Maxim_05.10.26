@@ -9,7 +9,7 @@ COINS = {
     'binancecoin': 'BNB',
 }
 
-API_URL = 'https://api.coingecko.com/api/v3/simple/price'
+API_URL = 'https://api.coingecko.com/api/v3/simple/price' #Ссылка на API
 REQUEST_TIMEOUT = 10
 REFRESH_INTERVAL = 30
 
@@ -86,6 +86,7 @@ def build_gui():
 
     table.tag_configure('up', foreground='green')
     table.tag_configure('down', foreground='red')
+
 
     timestamp_label = ttk.Label(root, text='Обновлено: ещё не обновлялось')
     timestamp_label.pack(pady=2)
