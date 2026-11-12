@@ -88,7 +88,7 @@ def build_gui():
     table.tag_configure('down', foreground='red')
 
 
-    timestamp_label = ttk.Label(root, text='Обновлено: ещё не обновлялось')
+    timestamp_label = ttk.Label(root, text='Обновлено: ещё пока не обновлялось')
     timestamp_label.pack(pady=2)
 
     return root, table, timestamp_label
