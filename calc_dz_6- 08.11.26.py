@@ -68,7 +68,7 @@ def on_refresh(table, timestamp_label, state):
 
 def build_gui():
     root = Tk()
-    root.title('Курсы криптовалют')
+    root.title('КриптоМонитор')
     root.geometry('420x250') # Уменьшил высоту окна под 3 строки
     root.resizable(False, False)
 
@@ -97,7 +97,7 @@ def main():
     root, table, timestamp_label = build_gui()
     state = {'last_refresh': None}
 
-    Button(root, text='Обновления', command=lambda: on_refresh(table, timestamp_label, state)).pack(pady=10)
+    Button(root, text='Обновить', command=lambda: on_refresh(table, timestamp_label, state)).pack(pady=10)
 
     root.mainloop()
 
